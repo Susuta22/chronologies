@@ -10,8 +10,8 @@
 
             {!! Form::open(['route' => 'login.post']) !!}
                 <div class="form-group">
-                    {!! Form::label('email', 'メール') !!}
-                    {!! Form::email('email', old('email'), ['class' => 'form-control']) !!}
+                    {!! Form::label('name', '名前') !!}
+                    {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}
                 </div>
 
                 <div class="form-group">

@@ -14,10 +14,10 @@
                     {!! Form::text('name', old('name'), ['class' => 'form-control']) !!}
                 </div>
 
-                <div class="form-group">
+                <!--<div class="form-group">
                     {!! Form::label('email', 'メール') !!}
                     {!! Form::email('email', old('email'), ['class' => 'form-control']) !!}
-                </div>
+                </div>-->
 
                 <div class="form-group">
                     {!! Form::label('password', 'パスワード') !!}
